@@ -5,10 +5,10 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Flyers",
+    year: "April 2025",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "../../public/images/flyer.jpg",
     link: "#",
   },
   {
@@ -45,7 +45,7 @@ const ProjectsMain = () => {
       >
         <ProjectsText />
       </motion.div>
-      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
+      <div className="flex flex-col gap-20 max-w-[900px] h-[1200px] mx-auto mt-12">
         {projects.map((project, index) => {
           return (
             <SingleProject
