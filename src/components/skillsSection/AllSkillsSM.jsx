@@ -13,13 +13,13 @@ import afterd from "../../../public/images/123.png";
 //steps
 //import photo with uniqne name
 //create icon
-import photo from "../../../public/images/ps.png";
-import ill from "../../../public/images/ai.png";
-import prem from "../../../public/images/pr.png";
-import audit from "../../../public/images/au.png";
-import medi from "../../../public/images/me.png";
-import lit from "../../../public/images/lr.png";
-import cinema from "../../../public/images/c4d.png";
+import photo from "/images/ps.png";
+import ill from "/images/ai.png";
+import prem from "/images/pr.png";
+import audit from "/images/au.png";
+import medi from "/images/me.png";
+import lit from "/images/lr.png";
+import cinema from "/images/c4d.png";
 const after=()=>{
   return(
     <img src={afterd} alt="after" className="w-12 h-12" />
