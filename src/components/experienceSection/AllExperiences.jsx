@@ -5,34 +5,37 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    job: "Head Graphics Designer",
+    company: "Yawatu Minerals & Mining LTD",
+    date: "2023 - Present Remotely",
+    
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Oversee and manage day to day production services and opererations",
+      "Videography and photography.",
+      "-Create Motion AD’s, E-Flyers, Editing and General info-Graphics.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "Head Graphics Designer",
+    company: "Hubcast Media Vancuvar, Canada",
+    Location: "Vancuvar, Canada",
+    date: "2022 - 2023 Remlotely",
+
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Oversee and manage day to day production services and opererations.",
+      "Collabrate and Create Content with the MD and Hubcast International Team.",
+      "Create Motion AD’s, E-Flyers, Editing and General info-Graphics.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "Still & Motion Graphics Designer",
+    company: "Face TV",
+    date: "2014 - 2018",
+
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Oversee and manage day to day production services and opererations.",
+      "Recruit, Train and oversee Creative Team Members.",
+      "Create Motion AD’s, E-Flyers, Editing and General info-Graphics.",
     ],
   },
 ];

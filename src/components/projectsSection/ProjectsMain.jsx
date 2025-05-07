@@ -5,24 +5,24 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Flyers",
-    year: "April 2025",
+    name: "BRAND LOGOS",
+    year: "different Brands",
     align: "right",
-    image: "/images/flyer.jpg",
-    link: "#",
+    image: "/images/phemmy.jpg",
+    link: "https://drive.google.com/drive/folders/1Ru1nz9TVzrXHZSDRqyT_PuIXXiM4cJ8S?usp=share_link",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "FLYERS",
+    year: "General Flyers",
     align: "left",
-    image: "/images/website-img-2.webp",
+    image: "/images/11.jpg",
     link: "#",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "LIFESTYLE",
+    year: "Bars, Restaurants, Hotels, Clubs",
     align: "right",
-    image: "/images/website-img-3.jpg",
+    image: "/images/pretty.jpg",
     link: "#",
   },
   {
@@ -31,6 +31,20 @@ const projects = [
     align: "left",
     image: "/images/website-img-4.jpg",
     link: "#",
+  },
+  {
+    name: "Brand Logos",
+    year: "April 2022",
+    align: "right",
+    image: "/images/phemmy.jpg",
+    link: "https://drive.google.com/drive/folders/1Ru1nz9TVzrXHZSDRqyT_PuIXXiM4cJ8S?usp=share_link",
+  },
+  {
+    name: "Brand Logos",
+    year: "April 2022",
+    align: "left",
+    image: "/images/phemmy.jpg",
+    link: "https://drive.google.com/drive/folders/1Ru1nz9TVzrXHZSDRqyT_PuIXXiM4cJ8S?usp=share_link",
   },
 ];
 
@@ -45,7 +59,7 @@ const ProjectsMain = () => {
       >
         <ProjectsText />
       </motion.div>
-      <div className="flex flex-col gap-20 max-w-[900px] h-[1200px] mx-auto mt-12">
+      <div className="flex flex-col gap-20 max-w-[900px] md:h-[2750px] lg:h-[4100px] sm:max-w-[3000px] sm:h-[2880px] mx-auto mt-12">
         {projects.map((project, index) => {
           return (
             <SingleProject
@@ -54,6 +68,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

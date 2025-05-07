@@ -9,39 +9,89 @@ import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-
+import afterd from "/images/123.png";
+//steps
+//import photo with uniqne name
+//create icon
+import photo from "/images/ps.png";
+import ill from "/images/ai.png";
+import prem from "/images/pr.png";
+import audit from "/images/au.png";
+import medi from "/images/me.png";
+import lit from "/images/lr.png";
+import cinema from "/images/c4d.png";
+const after=()=>{
+  return(
+    <img src={afterd} alt="after" className="w-12 h-12" />
+  )
+}
+const photoshop=()=>{
+  return(
+    <img src={photo} alt="after" className="w-12 h-12" />
+  )
+}
+const illust=()=>{
+  return(
+    <img src={ill} alt="after" className="w-12 h-12" />
+  )
+}
+const premired=()=>{
+  return(
+    <img src={prem} alt="after" className="w-12 h-12" />
+  )
+}
+const audited=()=>{
+  return(
+    <img src={audit} alt="after" className="w-12 h-12" />
+  )
+}
+const media=()=>{
+  return(
+    <img src={medi} alt="after" className="w-12 h-12" />
+  )
+}
+const light=()=>{
+  return(
+    <img src={lit} alt="after" className="w-12 h-12" />
+  )
+}
+const cinemma=()=>{
+  return(
+    <img src={cinema} alt="after" className="w-12 h-12" />
+  )
+}
 const skills = [
   {
-    skill: "HTML",
-    icon: FaHtml5,
+    skill: "AFTER EFFECTS",
+    icon: after,
   },
   {
-    skill: "CSS",
-    icon: FaCss3Alt,
+    skill: "PHOTOSHOP",
+    icon: photoshop,
   },
   {
-    skill: "JavaScript",
-    icon: IoLogoJavascript,
+    skill: "ILLUSTRATOR",
+    icon: illust,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
+    skill: "PREMIRE PRO",
+    icon: premired,
   },
   {
-    skill: "ReactJS",
-    icon: FaReact,
+    skill: "AUDITION",
+    icon: audited,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "MEDIA ENCODER",
+    icon: media,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
+    skill: "LIGHT ROOM",
+    icon: light,
   },
   {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    skill: "CINEMA 4D",
+    icon: cinemma,
   },
 ];
 

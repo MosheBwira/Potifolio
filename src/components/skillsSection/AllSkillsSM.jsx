@@ -9,7 +9,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { img } from "framer-motion/client";
-import afterd from "../../../public/images/123.png";
+import afterd from "/images/123.png";
 //steps
 //import photo with uniqne name
 //create icon
